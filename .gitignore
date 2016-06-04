@@ -31,3 +31,10 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Misc
+typings/**
+*.js
+*.js.map
+!systemjs.config.js
+!typings/typings.d.ts
