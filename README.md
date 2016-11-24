@@ -76,5 +76,3 @@ We've captured many of the most useful commands in npm scripts defined in the `p
 * `npm run tsc` - runs the TypeScript compiler once.
 * `npm run tsc:w` - runs the TypeScript compiler in watch mode; the process keeps running, awaiting changes to TypeScript files and re-compiling when it sees them.
 * `npm run serve` - runs the [wsrv](https://www.npmjs.com/package/wsrv), a light-weight, static file server with excellent support for Angular apps that use routing.
-* `npm run typings` - runs the typings tool.
-* `npm run postinstall` - called by *npm* automatically *after* it successfully completes package installation. This script installs the TypeScript definition files this app requires.
